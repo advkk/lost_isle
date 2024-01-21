@@ -1,0 +1,6 @@
+local part = script.Parent
+local ProximityPrompt = part.ProximityPrompt
+
+ProximityPrompt.Triggered:Connect(function(player)
+	player:Kick("You win!")
+end)
